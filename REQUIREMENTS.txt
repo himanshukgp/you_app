@@ -1,0 +1,22 @@
+#counterparty dependencies (installed via pip)
+
+appdirs==1.4.0
+#helps locate OS-specific directories (user data dir, etc)
+
+prettytable==0.7.2
+
+python-dateutil==2.2
+
+numpy 
+
+matplotlib
+
+mtcnn
+
+tensorflow
+
+keras_facenet
+
+PIL
+
+cv2
