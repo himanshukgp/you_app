@@ -7,6 +7,8 @@ prettytable==0.7.2
 
 python-dateutil==2.2
 
+tqdm
+
 numpy 
 
 matplotlib
