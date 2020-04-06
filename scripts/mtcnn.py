@@ -28,10 +28,10 @@ class mtcnn():
 		return face_array
 
 	def get_faces(self):
-		if (self.images is None) and (self.boxes is not None):
+		if (self.boxes is not None):
 			face_array = []
 			for i in tqdm(range(len(self.boxes))):
-				one_face = get_one_face(seld.boxes[i])
+				one_face = self.get_one_face(self.boxes[i])
 				face_array.append(one_face)
 			self.faces = np.array(face_array)
 
